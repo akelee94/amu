@@ -12,7 +12,7 @@
 
 可以带给你水平上的提升
 
-![关注我，我是阿沐](./weixin_follow.png)   
+![关注我，我是阿沐](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d7c4a5b6fc88475ca0733434af028157~tplv-k3u1fbpfcp-watermark.image)   
 
 ### 联系方式
 lw1772363381@163.com
