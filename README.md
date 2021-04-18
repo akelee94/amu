@@ -29,7 +29,7 @@ lw1772363381@163.com
 
 #📒面试
 ===================
-- [想不到大厂面试中的“幂等”性，竟然如此简单！][https://mp.weixin.qq.com/s?__biz=MzI4NjE4MTkwMg==&mid=2653712672&idx=1&sn=999e78b9a2bcc09a3e9b91cee089d969&chksm=f0380e41c74f8757d68ccbed61c92af8c41c9a05440bb067aeded13077981c4a0a816f9bfed2&token=1105743003&lang=zh_CN#rd]
+- [想不到大厂面试中的“幂等”性，竟然如此简单！](https://mp.weixin.qq.com/s?__biz=MzI4NjE4MTkwMg==&mid=2653712672&idx=1&sn=999e78b9a2bcc09a3e9b91cee089d969&chksm=f0380e41c74f8757d68ccbed61c92af8c41c9a05440bb067aeded13077981c4a0a816f9bfed2&token=1105743003&lang=zh_CN#rd)
 
 #拓展知识
 ===================
