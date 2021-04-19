@@ -6,9 +6,6 @@
  * QQ: 2511221051@qq.com
  */
 
-namespace amu\redis\currentlimiting;
-
-use Library\Traits\Instance;
 
 /**
  * @desc 漏斗算法的实现
@@ -17,8 +14,6 @@ use Library\Traits\Instance;
  */
 class LeakyBucket
 {
-    use Instance;
-
     /**
      * @Desc 桶内的总容量
      * @var int
@@ -75,6 +70,7 @@ class LeakyBucket
         // 若桶内水量还没有满 则往桶内继续加水
         if ($this->water < $this->capacity) {
             $this->water = $this->water + 1;
+            return true;
         }
 
         // 抱歉水桶已经满了，拒绝加水量

@@ -6,9 +6,6 @@
  * QQ: 2511221051@qq.com
  */
 
-namespace amu\redis\currentlimiting;
-
-use Library\Traits\Instance;
 
 /**
  * @desc  redis实现令牌桶操作类
@@ -17,7 +14,6 @@ use Library\Traits\Instance;
  */
 class RedisTokenBucket
 {
-    use Instance;
 
     /**
      * @desc redis实例

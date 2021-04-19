@@ -1,14 +1,16 @@
 <?php
 
-use  \amu\redis\currentlimiting\Counter;
-use  \amu\redis\currentlimiting\LeakyBucket;
-use  \amu\redis\currentlimiting\TokenBucket;
-use  \amu\redis\currentlimiting\RedisTokenBucket;
+require_once './Counter.php';
+require_once './LeakyBucket.php';
+require_once './TokenBucket.php';
+require_once './RedisTokenBucket.php';
+
+$error_count = $success_count = 0;
 
 // 计数器
-//$error_count = $success_count = 0;
-//for ($i = 0; $i <= 200; $i++) {
-//    $result = Counter::instance()->counter();
+//$counter = new Counter();
+//for ($i = 0; $i < 200; $i++) {
+//    $result = $counter->counter();
 //    if (!$result) {
 //        $error_count++;
 //        continue;
@@ -20,8 +22,9 @@ use  \amu\redis\currentlimiting\RedisTokenBucket;
 
 
 //漏桶算法
+//$leaky_bucket = new LeakyBucket();
 //for ($i = 0; $i < 500; $i++) {
-//    $result = LeakyBucket::instance()->leaky();
+//    $result = $leaky_bucket->leaky();
 //
 //    if ($result) {
 //        $success_count++;
@@ -34,8 +37,9 @@ use  \amu\redis\currentlimiting\RedisTokenBucket;
 
 
 // 令牌桶
+//$token_bucket = new TokenBucket();
 //for ($i = 0; $i < 500; $i++) {
-//    $result = TokenBucket::instance()->token();
+//    $result = $token_bucket->token();
 //    if ($result) {
 //        $success_count++;
 //        continue;
@@ -47,7 +51,7 @@ use  \amu\redis\currentlimiting\RedisTokenBucket;
 
 // redis版本令牌
 
-//$redis_token = RedisTokenBucket::instance();
+//$redis_token = new RedisTokenBucket();
 //
 //// 重置令牌桶
 //$redis_token->reset();
@@ -59,7 +63,6 @@ use  \amu\redis\currentlimiting\RedisTokenBucket;
 //}
 //
 //// 向令牌桶添加15个令牌 会有5个添加失败
-//$insert_err = 0;
 //$insert_num = $redis_token->insert(15);
 //
-//echo sprintf("获取令牌成功数%u，添加令牌成功个数%u", $get_succ, $insert_err);
+//echo sprintf("获取令牌成功数%u，添加令牌成功个数%u", $get_succ, $insert_num);

@@ -6,9 +6,6 @@
  * QQ: 2511221051@qq.com
  */
 
-namespace amu\redis\currentlimiting;
-
-use Library\Traits\Instance;
 
 /**
  * @desc 令牌桶算法
@@ -17,8 +14,6 @@ use Library\Traits\Instance;
  */
 class TokenBucket
 {
-    use Instance;
-
     /**
      * @Desc 桶内的总容量
      * @var int
@@ -35,7 +30,7 @@ class TokenBucket
      * @desc 当前可用令牌的数量
      * @var int
      */
-    public $tokens = 0;
+    public $tokens = 100;
 
     /**
      * @desc 上一次请求的时间

@@ -6,9 +6,6 @@
  * QQ: 2511221051@qq.com
  */
 
-namespace amu\redis\currentlimiting;
-
-use Library\Traits\Instance;
 
 /**
  * @desc 计数器
@@ -16,8 +13,6 @@ use Library\Traits\Instance;
  */
 class Counter
 {
-    use  Instance;
-
     /**
      * @desc 第一次请求时间
      * @var int
