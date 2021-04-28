@@ -24,3 +24,5 @@ var_dump($result);die;
 //$consume = new consume();
 //$result = $model->handleDelay('amumu2', [$consume, 'delay']);
 //var_dump($result);
+
+$redis->close();

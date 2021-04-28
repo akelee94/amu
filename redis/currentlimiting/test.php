@@ -66,3 +66,5 @@ $error_count = $success_count = 0;
 //$insert_num = $redis_token->insert(15);
 //
 //echo sprintf("获取令牌成功数%u，添加令牌成功个数%u", $get_succ, $insert_num);
+
+$redis->close();
