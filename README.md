@@ -32,6 +32,7 @@ lw1772363381@163.com
 
 ### 📒 面试
 - [想不到大厂面试中的“幂等”性，竟然如此简单！](https://mp.weixin.qq.com/s?__biz=MzI4NjE4MTkwMg==&mid=2653712672&idx=1&sn=999e78b9a2bcc09a3e9b91cee089d969&chksm=f0380e41c74f8757d68ccbed61c92af8c41c9a05440bb067aeded13077981c4a0a816f9bfed2&token=1105743003&lang=zh_CN#rd)
+- [老婆问我什么是同步、异步、阻塞、非阻塞、并发、并行？](https://mp.weixin.qq.com/s?__biz=MzI4NjE4MTkwMg==&mid=2653713036&idx=1&sn=332b8398be751cb3f42f3299dddf87b9&chksm=f0380dedc74f84fb989bc8aa3b50be8b82623b865d1238885fd7936e134f53715e99fe8bf8b9&token=115708021&lang=zh_CN#rd)
 
 ### 拓展知识
 - [面试官：没想到你对限流了解这么清楚！](https://mp.weixin.qq.com/s?__biz=MzI4NjE4MTkwMg==&mid=2653712925&idx=1&sn=db8f593fe48fba070a9b8b173df414e6&chksm=f0380d7cc74f846a8db4b2f6e95d3084edfec4c6b059f7e1f356d5a03b2370b7d95dc2ba1575&token=1105743003&lang=zh_CN#rd)
